@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  background-color: #0a0a23;
+  color: #ffffff;
+  text-align: center;
+}
+.container {
+  margin: 2rem auto 0;
+  width: 40%;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.freecodecamp_logo {
+  width: 2.5rem;
+  height: 3rem;
+  margin-bottom: -1rem;
+  font-weight: 800;
+}
+h1 {
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 350px;
+  font-family: "Castoro Titling", cursive;
+}
+form {
+  margin: 25px auto;
+  padding: 15px auto;
+  border: 3px solid #fff;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  background-color: #3b3b4f;
+}
+form p {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#number {
+  display: block;
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 10px;
+  width: 70%;
+  height: 30px;
+  padding: 7px 7px;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #0a0a23;
+  border: 1px solid #fff;
+}
+#number:focus {
+  border: 1px solid#198eee;
+}
+#convert-btn {
+  cursor: pointer;
+  width: 73%;
+  height: 40px;
+  margin: 20px auto 24px;
+  background: #ffac33;
+  border: 2px solid #feac32;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.output_div {
+  margin: 20px auto;
+  border: 3px solid #fff;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  background-color: #3b3b4f;
+}
+#output {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin: 4rem auto 0;
+    width: 75%;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile ----------- */
+@media only screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    margin: 4rem auto 0;
+    width: 90%;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h1 {
+    margin: 23px auto;
+    font-size: 2.1rem;
+  }
+  form p {
+    margin: 15px 0;
+  }
+  #number {
+    height: 40px;
+  }
+  #convert-btn {
+    height: 50px;
+  }
+  .output_div {
+    padding: 15px 0;
+  }
+}
